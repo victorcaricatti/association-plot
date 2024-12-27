@@ -1,5 +1,3 @@
-# association-plot
-
 # Association Matrix Visualization
 
 This repository contains a Python function, `association_matrix`, for creating a detailed matrix visualization to explore relationships between pairs of columns in a Pandas DataFrame. The function leverages Matplotlib for plotting, offering a clear and intuitive way to analyze correlations and distributions in datasets.
