@@ -134,11 +134,6 @@ def association_matrix(df:DataFrame, method:str ='pearson', figsize=(15, 15)):
           ax.yaxis.tick_right()
           ax.yaxis.set_label_position('right')
 
-        if i==j:
-          ax.set_yticks([])
-
-          a = ax.twinx()
-          a.scatter(v[columns[j]], v[columns[i]], s=s/100, alpha=0)
         
       else:
         ax.set_yticks([])
